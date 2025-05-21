@@ -1,0 +1,44 @@
+body {
+    background: #111;
+    color: #00ff66;
+    font-family: 'Fira Mono', 'Consolas', monospace;
+    margin: 0;
+    min-height: 100vh;
+}
+.container {
+    max-width: 600px;
+    margin: 80px auto;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 16px;
+    box-shadow: 0 0 24px #00ff66cc;
+    padding: 40px 32px;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px #00ff66, 0 0 2px #fff;
+}
+.login-links {
+    margin-top: 32px;
+}
+.btn {
+    display: inline-block;
+    margin: 0 12px;
+    padding: 12px 28px;
+    background: #00ff66;
+    color: #111;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+    box-shadow: 0 0 8px #00ff66cc;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+.btn:hover {
+    background: #111;
+    color: #00ff66;
+    transform: scale(1.08) rotate(-2deg);
+    box-shadow: 0 0 16px #00ff66;
+}

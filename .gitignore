@@ -1,6 +1,6 @@
 *.sqlite3
 .venv/
-static/
+/static/
 migrations/
 *.egg-info/
 __pycache__/
