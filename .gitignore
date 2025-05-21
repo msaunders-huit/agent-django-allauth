@@ -1,0 +1,9 @@
+*.sqlite3
+.venv/
+static/
+migrations/
+*.egg-info/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
