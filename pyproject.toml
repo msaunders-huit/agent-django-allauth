@@ -1,0 +1,31 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-django-allauth"
+version = "0.1.0"
+description = "A Django project with django-allauth for authentication."
+authors = [
+    { name = "Django Admin", email = "root@localhost" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: Django",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License"
+]
+dependencies = [
+  "Django>=5.2,<5.3",
+  "django-allauth>=0.54.0",
+  "django-cas-ng>=4.0.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
